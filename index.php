@@ -1,7 +1,7 @@
 <?php
 $array=[1,2,'name'=>'Darya',4,5,6];
-//for($i=0;$i<count($array);$i++) {
-  //  echo $array[$i].'</br>';}
+for($i=0;$i<count($array);$i++) {
+echo $array[$i].'</br>';}
 
 
 foreach ($array as $key =>$value){
@@ -12,10 +12,10 @@ foreach ($array as $key =>$value){
     }
 
 }
+?>
 
 
-
-
+<?php
 $i=0;
 while($i<10){
    echo $i;
@@ -27,8 +27,9 @@ do{
   $i1++;
 }while($i1<10);
 
+?>
 
-
+<?php
 $num=5;
 $degree=2;
 
@@ -46,7 +47,6 @@ $result = $num ** $degree;
 return $result;
 }
 echo $result;
-
 ?>
 
 
