@@ -72,6 +72,23 @@ else{
 }
 
 
+echo ('<p>'.'Задача 3'.'</p>'). '</br>';
+
+$digits=array(2,-10,-2,4,5,1,6,200,1.6,95);
+function deleteNegtives($digits){
+
+    foreach ($digits as $key =>$negtiv){
+        if($negtiv < 0) {
+            unset($digits[$key]);
+
+        }
+    }
+    return $digits;
+}
+$digits=deleteNegtives($digits);
+print_r($digits);
+
+//$digits=deleteNegtives($digits);
 
 
 
