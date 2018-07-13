@@ -88,7 +88,7 @@ function deleteNegtives($digits){
 $digits=deleteNegtives($digits);
 print_r($digits);
 
-//$digits=deleteNegtives($digits);
+
 
 
 
