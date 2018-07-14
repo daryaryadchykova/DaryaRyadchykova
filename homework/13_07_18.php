@@ -89,6 +89,23 @@ $digits=deleteNegtives($digits);
 print_r($digits);
 
 
+echo ('<p>'.'Задача 4'.'</p>'). '</br>';
+
+
+function deleteNegtives1(&$digits){
+
+    foreach ($digits as $key=>$negtiv){
+        if($negtiv < 0) {
+            unset($digits[$key]);
+
+        }
+    }
+
+}
+$digits=deleteNegtives1($digits);
+print_r($digits);
+
+
 
 
 
